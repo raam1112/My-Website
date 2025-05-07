@@ -40,7 +40,7 @@
       color: #1f6feb;
     }
     header {
-      padding: 8rem 2rem 3rem;
+     padding: 8rem 2rem 3rem;
       text-align: center;
       background: url('https://i.postimg.cc/yxrQpGdV/7e5492e1-bce2-48e3-84ce-dd222f7cb6ff.jpg') no-repeat center center;
       background-size: cover;
@@ -60,7 +60,7 @@
     }
     header p {
       font-size: 1.2rem;
-      color: #e0e0e0;
+      color: #d1d5da;
     }
     section {
       max-width: 900px;
@@ -101,13 +101,19 @@
       margin-top: 2rem;
     }
     .social-links a {
-      color: #58a6ff;
+      color: inherit;
       font-size: 1.8rem;
       margin: 0 10px;
       transition: transform 0.3s ease, color 0.3s ease;
     }
+    .social-links a[href*="linkedin"] { color: #0077b5; }
+    .social-links a[href*="github"] { color: #333; }
+    .social-links a[href*="facebook"] { color: #3b5998; }
+    .social-links a[href*="twitter"] { color: #1da1f2; }
+    .social-links a[href*="instagram"] { color: #e1306c; }
+    .social-links a[href*="leetcode"] { color: #f89f1b; }
+    .social-links a[href*="skillrack"] { color: #00b894; }
     .social-links a:hover {
-      color: #1f6feb;
       transform: scale(1.2);
     }
     footer {
